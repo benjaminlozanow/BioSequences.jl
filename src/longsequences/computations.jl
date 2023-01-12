@@ -11,7 +11,7 @@
 """
     molecular_weight(seq::LongRNA, double_stranded::Bool, circular::Bool, Monoisotopic::Bool)
 
-Calulates the molecular weight of a LongSequence
+Calulates the molecular weight of a RNA LongSequence 
 """
 ###
 ### Molecular weight for RNA
@@ -55,6 +55,12 @@ function molecular_weight(
 
 end
 
+
+"""
+    molecular_weight(seq::LongDNA, double_stranded::Bool, circular::Bool, Monoisotopic::Bool)
+
+Calulates the molecular weight of a DNA LongSequence 
+"""
 ###
 ### Molecular weight for DNA
 ###
@@ -96,6 +102,12 @@ function molecular_weight(
 
 end
 
+
+"""
+    molecular_weight(seq::LongAA, double_stranded::Bool, circular::Bool, Monoisotopic::Bool)
+
+Calulates the molecular weight of a AA LongSequence 
+"""
 ###
 ### Molecular weight for AA
 ###
