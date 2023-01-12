@@ -218,7 +218,7 @@ include("biosequence/biosequence.jl")
 include("longsequences/longsequence.jl")
 include("longsequences/hash.jl")
 include("longsequences/randseq.jl")
-include("longsequences/molecular_weight.jl")
+include("longsequences/computations.jl")
 
 include("geneticcode.jl")
 
