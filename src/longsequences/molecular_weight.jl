@@ -2,7 +2,7 @@
 # =====
 
 function molecular_weight(
-    seq::RNASequence;
+    seq::LongRNA;
     double_stranded::Bool=false,
     circular::Bool=false,
     monoisotopic::Bool=false)
@@ -41,7 +41,7 @@ end
 
 
 function molecular_weight(
-    seq::DNASequence;
+    seq::LongDNA;
     double_stranded::Bool=false,
     circular::Bool=false,
     monoisotopic::Bool=false)
@@ -79,7 +79,7 @@ function molecular_weight(
 end
 
 function molecular_weight(
-    seq::AminoAcidSequence;
+    seq::LongAA;
     double_stranded::Bool=false,
     circular::Bool=false,
     monoisotopic::Bool=false)
