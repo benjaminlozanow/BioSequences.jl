@@ -150,6 +150,9 @@ export
     randrnaseq,
     randaaseq,
 
+    # Calculations
+    molecular_weight,
+
     ###
     ### Sequence literals
     ###
@@ -215,6 +218,7 @@ include("biosequence/biosequence.jl")
 include("longsequences/longsequence.jl")
 include("longsequences/hash.jl")
 include("longsequences/randseq.jl")
+include("longsequences/molecular_weight.jl")
 
 include("geneticcode.jl")
 
