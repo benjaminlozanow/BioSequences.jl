@@ -8,6 +8,14 @@
 ### This file is a part of BioJulia.
 ### License is MIT: https://github.com/BioJulia/BioSequences.jl/blob/master/LICENSE.md
 
+"""
+    molecular_weight(seq::LongRNA, double_stranded::Bool, circular::Bool, Monoisotopic::Bool)
+
+Calulates the molecular weight of a LongSequence
+"""
+###
+### Molecular weight for RNA
+###
 
 function molecular_weight(
     seq::LongRNA;
@@ -47,7 +55,9 @@ function molecular_weight(
 
 end
 
-
+###
+### Molecular weight for DNA
+###
 function molecular_weight(
     seq::LongDNA;
     double_stranded::Bool=false,
@@ -86,6 +96,9 @@ function molecular_weight(
 
 end
 
+###
+### Molecular weight for AA
+###
 function molecular_weight(
     seq::LongAA;
     double_stranded::Bool=false,
