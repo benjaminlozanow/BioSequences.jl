@@ -1,5 +1,13 @@
-# Molecular Weight Calculations
-# =====
+
+###
+### Computations
+###
+###
+### Computation methods for LongSequence
+###
+### This file is a part of BioJulia.
+### License is MIT: https://github.com/BioJulia/BioSequences.jl/blob/master/LICENSE.md
+
 
 function molecular_weight(
     seq::LongRNA;
